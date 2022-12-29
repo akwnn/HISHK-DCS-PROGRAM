@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@font-face {
+    font-family: "Righteous";
+    src: url("fonts/Righteous-Regular.ttf");
+}
+
+.fill {
+    justify-content: left;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.fill image {
+    flex: 1;
+    height: 100%;
+}
+
+.main-font {
+    font-family: Righteous;
+}
+
+p {
+    font-family: Poppins;
+}
+
+.bold {
+    font-weight:bold;
+}
+
+#title {
+    font-size: 65px;
+}
+
+#bgcontainer {
+    background-image: url("banner-bg.png");
+    opacity: 90%;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+
+}
+
+.menuButton{
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+#menuButton:hover{
+    background-color: #ffffff;
+    color: #353535 !important;
+}
+
+.bold {
+    font-weight:bold;
+}

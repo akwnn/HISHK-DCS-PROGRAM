@@ -1,0 +1,71 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "questions",
+      "patterns": [
+        "What is DCS",
+        "What is district cooling system",
+        "How does DCS work",
+        "Tell me about DCS",
+        "Tell me about district cooling systems"
+      ],
+      "responses": [
+        "DCS is distributes cooling capacity in the form of chilled water or other medium from a central source to multiple buildings through a network of underground pipes for use in space and process cooling"
+      ]
+    },
+    {
+      "tag": "questions1",
+      "patterns": [
+        "Where can I find out more about DCS",
+        "I want to know more about DCS",
+        "How do I know more about district cooling system"
+      ],
+      "responses": [
+        "Please head over to the About page located at the top of the webpage"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}

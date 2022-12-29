@@ -10,15 +10,15 @@ Due to financial, storage and resource difficulties our website cannot be run on
 
 https://docs.python.org/3/library/venv.html
 
-python3 -m pytorch venv
+$ python3 -m pytorch venv
 
-venv/Scripts/activate
+$ venv/Scripts/activate
 
 2. Install Flask and necessary resources
 
 https://flask.palletsprojects.com/en/2.2.x/installation/
 
-pip install Flask torch torchvision nltk flask_session
+$ pip install Flask torch torchvision nltk flask_session
 
 3. Run python 
 
@@ -36,7 +36,7 @@ python
 
 6. Train the application
 
-python train.py
+$ python train.py
 
 7. Open the app1.py file
 
